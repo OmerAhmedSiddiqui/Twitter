@@ -1,5 +1,8 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
 img {
-    width: 1.8%
+    width: 8%
 }
 
 ul {
@@ -20,10 +23,14 @@ a {
     color: black;
 }
 
+
 .coloumn {
     margin-left: 100px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
+    /* border-right: 1px solid black; */
+    padding-right: 0px;
+    /* position: fixed; */
 
 
 }
@@ -32,41 +39,148 @@ button{
     background-color: #1d9bf0;
     font-family: 'Times New Roman', Times, serif;
     color: white;
-   width: 15%;
+   width: 60%;
+   height: 50px;
    margin-left: 35px;
-   padding: 10px;
+  
    font-size: 20px;
    border: 1px solid transparent;
    border-radius: 50px;
    font-weight: bolder;
 }
-.low-class-container{
+.small-button{
+    background-color: #1d9bf0;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+   width: 20%;
+   height: 40px;
+   margin-left: 35px;
+ 
+   font-size: 17px;
+   border: 1px solid transparent;
+   border-radius: 4 0px;
+   font-weight: bolder;
+   padding: 0px;
+}
+
+.low-class-container1,.low-class-container2,.low-class-container3{
     display: flex;
     justify-content: space-between;
 }
-.coloumn2{
-    width: 50%;
-}
+
 
 .profile-pic{
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     border-radius: 50px;
 }
-input{
+.post{
     width: 200%;
     height: 50px;
-    font-size: 30px;
+    font-size: 20px;
     
     border: 1px solid transparent;
-    /* margin-top: 15px;
+    margin-top: 8px;
 
-    margin-left: -150px; */
+    margin-left: 20px;
 }
-.low-class-container a img{
-    width: 20%;
+.low-class-container2{
+    padding-bottom: 20px;
+}
+.low-class-container3 a img{
+    width: 25px;
+
+    margin-right: -200px;
 }
 .fvt{
-    width: 40px;
-    height: 40px;
+    margin-top: 28px;
+    width: 20px;
+    height: 20px;
+}
+.row{
+    display: flex;
+}
+.sub-coloumn{
+    border: 1px solid #cfd4d5;
+  
+    padding: 10px;
+    margin-left: -30px;
+    width: 80%;
+   
+}
+.sub-coloumn2{
+
+    border: 1px solid #cfd4d5;
+    width: 100%;
+    padding: 10px;
+    margin-left: 20px;
+    width: 50%;
+    height: 850px;
+}
+
+/* .short-nav{
+    margin-left: -10px;
+    margin-right: -10px;
+} */
+.serach{
+    width: 80%;
+    height: 50px;
+    border: 1px solid #f1f4f5;
+    font-size: 15px;
+    border-radius:0px 50px  50px 0px;
+    background-color: #eff3f4;
+
+    
+}
+.search-img{
+ width: 15%;
+ margin-top: 10px;
+ border-radius: 50px 0px 0px 50px;
+}
+.coloumn2{
+    display: flex;
+    height: 220px;
+  
+}
+sub{
+    font-size: 12px;
+}
+.low-sub-container3{
+    margin-top: 50px;
+    background-color:#eff3f4 ;
+    padding: 10px;
+    border-radius: 20px;
+    padding-left: 40px;
+}
+.low-sub-container3 img{
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    margin-top: 25px;
+    padding-right: 10px;
+}
+.trend-session{
+    display: flex;
+    justify-content: space-between;
+}
+.meme-profile{
+ 
+width: 15%;
+border-radius: 20px;
+}
+.flex-row{
+margin-top:50px;
+}
+.meme{
+    margin-top: 20px;
+    width: 100%;
+    /* height: 500px; */
+}
+.profileimage{
+    display: inline;
+
+}
+.profile-name{
+    margin-top: -100px;
+    margin-left: 10px;
 }
